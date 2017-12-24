@@ -3,4 +3,48 @@
     <string name="av_key">05QJXK46QPAXOU2O</string>
 
 
+    <string name="Bitcoin">BTC</string>
+    <string name="BitBay">BAY</string>
+    <string name="BCAP">BCAP</string>
+    <string name="BitConnect">BCC</string>
+    <string name="Bitcoin_Cash">BCH</string>
+    <string name="Bytecoin">BCN</string>
+    <string name="BitCrystals">BCY</string>
+    <string name="Blackcoin">BLK</string>
+    <string name="Bitcoin_Dark">BTCD</string>
+    <string name="DogeCoin">DOGE</string>
+    <string name="Internet_of_People">IOP</string>
+    <string name="IOTA">IOT</string>
+    <string name="Litecoin">LTC</string>
+    <string name="Rupee">RUP</string>
+    <string name="Rivetz">RVT</string>
+    <string name="Zcash">ZEC</string>
+    <string name="ZenCash">ZEN</string>
+    <string name="Zetacoin">ZET</string>
+    <string name="Ripples">XRP</string>
+
+
+    <string-array name="crypto_array">
+        <item name="bitcash">BCH</item>
+        <item>BTC</item>
+        <item>DOGE</item>
+        <item>DASH</item>
+        <item>IOT</item>
+        <item>LTC</item>
+        <item>RUP</item>
+        <item>ETH</item>
+        <item>ETC</item>
+        <item>ZEC</item>
+        <item>XRP</item>
+        <item>USD</item>
+        <item>INR</item>
+        <item>BITGOLD</item>
+        <item>GBP</item>
+        <item>EUR</item>
+        <item>CNY</item>
+
+
+    </string-array>
+
+
 </resources>
