@@ -49,5 +49,9 @@ dependencies {
     //compile 'io.reactivex:rxjava:1.2.5'
     //compile 'io.reactivex:rxandroid:1.2.1'
 
+    // draw charts using GraphView
+    compile 'com.jjoe64:graphview:4.2.1'
+
+
 
 }

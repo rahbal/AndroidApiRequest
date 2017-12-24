@@ -54,4 +54,23 @@
         android:layout_height="wrap_content" />
 
 
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:gravity="center|bottom"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <Button
+            android:id="@+id/button1"
+            android:text="Charts"
+            android:layout_centerHorizontal="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+
 </LinearLayout>

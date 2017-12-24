@@ -1,5 +1,6 @@
 package com.thebali.greatone
 
+import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
@@ -117,6 +118,14 @@ class MainActivity : AppCompatActivity() {
             override fun onNothingSelected(parent: AdapterView<*>) {
 
             }
+        }
+
+
+        //button onclick to the charts activity
+        button1.setOnClickListener {
+            val sintent = Intent(this, ChartsActivity::class.java)
+            sintent.putExtra("key", b)
+            startActivity(sintent)
         }
 
     }
