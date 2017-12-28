@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">greatone</string>
+    <string name="app_name">bitroid</string>
     <string name="av_key">05QJXK46QPAXOU2O</string>
 
 
@@ -22,6 +22,11 @@
     <string name="ZenCash">ZEN</string>
     <string name="Zetacoin">ZET</string>
     <string name="Ripples">XRP</string>
+    <string name="exchange_rate">Exchange Rate</string>
+    <string name="to_currency_name">To_Currency Name</string>
+    <string name="from_currency_name">From_Currency Name</string>
+    <string name="from_currency">From Currency</string>
+    <string name="to_currency">To Currency</string>
 
 
     <string-array name="crypto_array">
