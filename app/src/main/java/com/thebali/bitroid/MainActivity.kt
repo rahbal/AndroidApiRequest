@@ -9,7 +9,6 @@ import com.thebali.bitroid.model.api.AlphaApiClass
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.schedulers.Schedulers
 import kotlinx.android.synthetic.main.activity_main.*
-import kotlinx.android.synthetic.main.grid_item.*
 
 class MainActivity : AppCompatActivity() {
     val urla = "https://www.alphavantage.co/query?function=CURRENCY_EXCHANGE_RATE&from_currency=USD&to_currency=INR&apikey=05QJXK46QPAXOU2O"
@@ -17,7 +16,6 @@ class MainActivity : AppCompatActivity() {
     val test1 = "05QJXK46QPAXOU2O"
     ////////////////////////////////////////////////////////////////////////////
 
-    lateinit var listView: ListView
     lateinit var gridAdapter1: ArrayAdapter<String>
     lateinit var spinAdapter1: ArrayAdapter<String>
     lateinit var spinAdapter2: ArrayAdapter<String>
