@@ -19,6 +19,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity android:name=".ChartsActivity">
+            <intent-filter>
+                <category android:name="android.intent.category.ALTERNATIVE" />
+
+            </intent-filter>
+        </activity>
+
+
     </application>
 
 </manifest>

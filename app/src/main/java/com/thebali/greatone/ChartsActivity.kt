@@ -15,17 +15,11 @@ class ChartsActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?, persistentState: PersistableBundle?) {
         super.onCreate(savedInstanceState, persistentState)
         setContentView(R.layout.activity_charts)
+
+        val datap = arrayOf(DataPoint(0.0, 1.0), DataPoint(5.0, 1.0))
+        val seri = LineGraphSeries<DataPoint>(datap)
+        graph1.addSeries(seri)
+
     }
-
-//    val datap = DataPoint[](
-//        DataPoint(0, 1),
-//        DataPoint(5, 1),
-//        DataPoint(6, 1),
-//        DataPoint(5, 6),
-//        DataPoint(2, 8)
-//    )
-
-//        val series = LineGraphSeries<DataPoint>()
-//        graph1.addSeries(series)
 
 }
