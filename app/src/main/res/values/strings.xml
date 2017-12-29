@@ -27,6 +27,7 @@
     <string name="from_currency_name">From_Currency Name</string>
     <string name="from_currency">From Currency</string>
     <string name="to_currency">To Currency</string>
+    <string name="sample_text">tryggjyhju--</string>
 
 
     <string-array name="crypto_array">

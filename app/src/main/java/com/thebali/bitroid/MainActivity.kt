@@ -58,8 +58,6 @@ class MainActivity : AppCompatActivity() {
                         .subscribeOn(Schedulers.io())
                         .observeOn(AndroidSchedulers.mainThread())
                         .subscribe({ item1 ->
-
-                            // this data is not getting written to the gridview
                             textView.text = item1.exchangeRate
                             textView3.text = item1.toCurrencyName
                             textView5.text = item1.fromCurrencyName
@@ -68,7 +66,7 @@ class MainActivity : AppCompatActivity() {
                         }, { e ->
                             e.printStackTrace()
                         }, {
-                            Toast.makeText(this@MainActivity, "my message", Toast.LENGTH_LONG).show()
+                            Toast.makeText(this@MainActivity, "spinner 1", Toast.LENGTH_LONG).show()
                         })
 
 
@@ -76,9 +74,7 @@ class MainActivity : AppCompatActivity() {
             }
 
             override fun onNothingSelected(parent: AdapterView<*>) {
-                textview1.text = "nothing to show here.."
-
-
+                textView3.text = getString(R.string.sample_text)
             }
         }
 
@@ -92,28 +88,21 @@ class MainActivity : AppCompatActivity() {
                         .subscribeOn(Schedulers.io())
                         .observeOn(AndroidSchedulers.mainThread())
                         .subscribe({ item1 ->
-
                             textView.text = item1.exchangeRate
                             textView3.text = item1.toCurrencyName
                             textView5.text = item1.fromCurrencyName
                             textView7.text = item1.timeZone
                             textView9.text = item1.lastRefreshed
 
-//                            listmap[0] = item1.exchangeRate
-//                            listmap[1] = item1.toCurrencyName
-//                            listmap[2] = "bali is getting through"
-//                            listmap[3] = item1.lastRefreshed
                         }, { e ->
                             e.printStackTrace()
                         }, {
-                            Toast.makeText(this@MainActivity, "my 22", Toast.LENGTH_LONG).show()
+                            Toast.makeText(this@MainActivity, "spinner2", Toast.LENGTH_LONG).show()
                         })
             }
 
             override fun onNothingSelected(parent: AdapterView<*>) {
-
-                textview1.text = "nothing to show here.."
-
+                textView3.text = getString(R.string.sample_text)
             }
         }
 

@@ -18,7 +18,7 @@ class ChartsActivity : AppCompatActivity() {
 
         val datap = arrayOf(DataPoint(0.0, 1.0), DataPoint(5.0, 1.0))
         val seri = LineGraphSeries<DataPoint>(datap)
-        graph1.addSeries(seri)
+        graphView1.addSeries(seri)
 
     }
 }
